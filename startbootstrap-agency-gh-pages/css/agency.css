@@ -102,6 +102,9 @@ img::-moz-selection {
 #mainNav {
   background-color: #212529;
 }
+#secnav {
+  background-color: #ffffff;
+}
 
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -117,9 +120,14 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   color: #008eef;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
 
+#secnav .navbar-brand{
+  color: #008eef;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
   margin-left: 40%;
 }
+
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand: {
   color: #008eef;
@@ -134,9 +142,11 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #008eef;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -148,20 +158,24 @@ img::-moz-selection {
     border: none;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
+  
+#mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #ffffff;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
