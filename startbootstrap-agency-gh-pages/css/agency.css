@@ -118,6 +118,7 @@ img::-moz-selection {
   color: #008eef;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
 
+  margin-left: 40%;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand: {
